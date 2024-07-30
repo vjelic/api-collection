@@ -1,6 +1,6 @@
 name: "Upload scan results"
 on: 
-    workflow_dispatch:
+    pull_request:
 jobs:
     sarif:
         runs-on: ubuntu-latest

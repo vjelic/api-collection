@@ -26,7 +26,48 @@
               "helpUri": "https://github.com/Microsoft/DevSkim/blob/main/guidance/DS176209.md",
               "help": {
                 "text": "A \"TODO\" or similar was left in source code, possibly indicating incomplete functionality",
-                "markdown": "Visit [https://github.com/Microsoft/DevSkim/blob/main/guidance/DS176209.md](https://github.com/Microsoft/DevSkim/blob/main/guidance/DS176209.md) for guidance on this issue."
+                "markdown": "[Table of contents](../README.md#contents)
+
+# Beyond the Basics
+
+## <a id="related-locations"></a>Related locations
+
+Sometimes there are places in the code other than the result location that can can help you understand a problem.
+We call these places <a href="Glossary.md#related-location">_related locations_</a>.
+SARIF represents related locations with the optional `result.relatedLocations` property,
+an array of `location` objects.
+
+For example, suppose you analyze this Python file:
+
+```python
+# 3-Beyond-basics/bad-eval.py
+
+expr = input("Expression> ")
+print(eval(expr))
+```
+
+The tool might detect the use of `eval` on a "tainted" variable
+(one that entered the system through user input and wasn't subsequently "sanitized"),
+and might produce a `result` like this (see [bad-eval.sarif](../samples/3-Beyond-basics/bad-eval.sarif)):
+
+```json
+{
+  "ruleId": "PY2335",
+  "message": "Use of tainted variable 'expr' in the insecure function 'eval'.",
+  "locations": [
+    {
+      "physicalLocation": {
+        "artifactLocation": {
+          "uri": "3-Beyond-basics/bad-eval.py"
+        },
+        "region": {
+          "startLine": 4
+        }
+      }
+    }
+  ]
+}
+```"
               },
               "properties": {
                 "DevSkimSeverity": "ManualReview",

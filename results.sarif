@@ -26,7 +26,7 @@
               "helpUri": "https://github.com/Microsoft/DevSkim/blob/main/guidance/DS176209.md",
               "help": {
                 "text": "A \"TODO\" or similar was left in source code, possibly indicating incomplete functionality",
-                "markdown": "[Table of contents](../README.md#contents)
+                "markdown": "
 
 # Beyond the Basics
 

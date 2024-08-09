@@ -26,9 +26,7 @@
               "helpUri": "https://github.com/Microsoft/DevSkim/blob/main/guidance/DS176209.md",
               "help": {
                 "text": "A \"TODO\" or similar was left in source code, possibly indicating incomplete functionality",
-                "markdown": "# A first-level heading
-## A second-level heading
-### A third-level heading"
+                "markdown": "# A first-level heading\n\n## A second-level heading\n\n### A third-level heading"
               },
               "properties": {
                 "DevSkimSeverity": "ManualReview",

@@ -26,8 +26,7 @@
               "helpUri": "https://github.com/Microsoft/DevSkim/blob/main/guidance/DS176209.md",
               "help": {
                 "text": "A \"TODO\" or similar was left in source code, possibly indicating incomplete functionality",
-                "markdown": "\n# A first-level heading\n\n## A second-level heading\n\n### A third-level heading\n\n```js
-var add2 = function(number){\n\treturn number + 2;\n}\n```"
+                "markdown": "\n# A first-level heading\n\n## A second-level heading\n\n### A third-level heading\n\n```js\nvar add2 = function(number){\n\treturn number + 2;\n}\n```"
               },
               "properties": {
                 "DevSkimSeverity": "ManualReview",

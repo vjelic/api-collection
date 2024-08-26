@@ -39,7 +39,7 @@
               "id": "DS176209",
               "name": "SuspiciousComment",
               "shortDescription": {
-                "text": "Test: A \"TODO\" or similar was left in source code, possibly indicating incomplete functionality"
+                "text": "A \"TODO\" or similar was left in source code, possibly indicating incomplete functionality"
               },
               "fullDescription": {
                 "text": "Suspicious comment: A \"TODO\" or similar was left in source code, possibly indicating incomplete functionality"
@@ -4972,6 +4972,7 @@
         },
         {
           "ruleId": "DS176209",
+          "ruleIndex": 0,
           "kind": "fail",
           "level": "note",
           "message": {

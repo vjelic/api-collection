@@ -36,7 +36,7 @@
               }
             },
             {
-              "id": "DS176209",
+              "id": "",
               "name": "SuspiciousComment",
               "shortDescription": {
                 "text": "A \"TODO\" or similar was left in source code, possibly indicating incomplete functionality"
@@ -48,7 +48,7 @@
                 "enabled": true,
                 "level": "note"
               },
-              "helpUri": "https://github.com/Microsoft/DevSkim/blob/main/guidance/DS176209.md",
+              "helpUri": "https://github.com/Microsoft/DevSkim/blob/main/guidance/.md",
               "help": {
                 "text": "A \"TODO\" or similar was left in source code, possibly indicating incomplete functionality",
                 "markdown": "\n# A AAAAAAAAAAAAAAAAAAAAAAAAA\n\n## BBBBBBBBBBBBBBBB\n\n### A third-level heading\n\n```js\nvar add2 = function(number){\n\treturn number + 2;\n}\n```"
@@ -4398,6 +4398,9 @@
         },
         {
           "ruleId": "DS176209",
+          "rule": {
+            "index": 0
+          },
           "kind": "fail",
           "level": "note",
           "message": {

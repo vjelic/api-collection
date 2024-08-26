@@ -36,6 +36,31 @@
               }
             },
             {
+              "id": "DS176209",
+              "name": "SuspiciousComment",
+              "shortDescription": {
+                "text": "A \"TODO\" or similar was left in source code, possibly indicating incomplete functionality"
+              },
+              "fullDescription": {
+                "text": "Suspicious comment: A \"TODO\" or similar was left in source code, possibly indicating incomplete functionality"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "note"
+              },
+              "helpUri": "https://github.com/Microsoft/DevSkim/blob/main/guidance/DS176209.md",
+              "help": {
+                "text": "A \"TODO\" or similar was left in source code, possibly indicating incomplete functionality",
+                "markdown": "\n# A AAAAAAAAAAAAAAAAAAAAAAAAA\n\n## BBBBBBBBBBBBBBBB\n\n### A third-level heading\n\n```js\nvar add2 = function(number){\n\treturn number + 2;\n}\n```"
+              },
+              "properties": {
+                "DevSkimSeverity": "ManualReview",
+                "DevSkimConfidence": "High",
+                "precision": "high",
+                "problem.severity": "recommendation"
+              }
+            },
+            {
               "id": "DS173237",
               "name": "DoNotStoreTokensOrKeysInSourceCode",
               "shortDescription": {
@@ -2055,6 +2080,9 @@
         },
         {
           "ruleId": "DS176209",
+          "rule": {
+            "index": 1
+          }
           "kind": "fail",
           "level": "note",
           "message": {

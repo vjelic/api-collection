@@ -36,7 +36,7 @@
               }
             },
             {
-              "id": "DS176209",
+              "id": "",
               "name": "SuspiciousComment",
               "shortDescription": {
                 "text": "A \"TODO\" or similar was left in source code, possibly indicating incomplete functionality"
@@ -2079,7 +2079,7 @@
           }
         },
         {
-          "ruleId": "DS176209/FIX",
+          "ruleId": "DS176209",
           "ruleIndex": 1,
           "kind": "fail",
           "level": "note",

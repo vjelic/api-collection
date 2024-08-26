@@ -39,7 +39,7 @@
               "id": "DS176209",
               "name": "SuspiciousComment",
               "shortDescription": {
-                "text": "A \"TODO\" or similar was left in source code, possibly indicating incomplete functionality"
+                "text": "Test: A \"TODO\" or similar was left in source code, possibly indicating incomplete functionality"
               },
               "fullDescription": {
                 "text": "Suspicious comment: A \"TODO\" or similar was left in source code, possibly indicating incomplete functionality"

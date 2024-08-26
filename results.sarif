@@ -2082,7 +2082,7 @@
           "ruleId": "DS176209",
           "rule": {
             "index": 1
-          }
+          },
           "kind": "fail",
           "level": "note",
           "message": {

@@ -4395,7 +4395,7 @@
           }
         },
         {
-          "ruleIndex": 1,
+          "ruleIndex": 0,
           "kind": "fail",
           "level": "note",
           "message": {

@@ -2080,7 +2080,7 @@
         },
         {
           "ruleId": "DS176209",
-          "ruleIndex": 1,
+          "ruleIndex": 2,
           "kind": "fail",
           "level": "note",
           "message": {

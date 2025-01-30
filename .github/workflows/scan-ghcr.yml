@@ -30,8 +30,11 @@ jobs:
       - name: Authenticate to GitHub Container Registry
         run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
 
-      - name: Pull Glog image
+      - name: Pull Glog scanner image
         run: docker pull ghcr.io/vjelic/glog-scan-javascript
+
+      - name: Pull Glog resolver image
+        run: docker pull ghcr.io/vjelic/glog-scan-resolver
 
       - name: Clean directories
         run: |

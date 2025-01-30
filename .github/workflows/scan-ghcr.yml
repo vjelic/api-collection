@@ -42,8 +42,8 @@ jobs:
       - name: Execute scan
         run: docker run --rm -e GLOGSERVICE=0d291a03fcbfdcea699d50685a8bb27ae3b3077f -e HOST_UID=$(id -u) -e HOST_GID=$(id -g) -e IGNORE="$ignore" -v "$GITHUB_WORKSPACE":/app:rw "ghcr.io/vjelic/glog-scan-javascript"
 
-      - name: Check report
-        run: ls -lht $GITHUB_WORKSPACE/.glog
+      - name: Execute Glog resolver
+        run: docker run --rm -e GLOGSERVICE=0d291a03fcbfdcea699d50685a8bb27ae3b3077f -e HOST_UID=$(id -u) -e HOST_GID=$(id -g) -e IGNORE="$ignore" -v "$GITHUB_WORKSPACE":/app:rw "ghcr.io/vjelic/glog-scan-resolver"
         
       - name: Commit reports
         run: |

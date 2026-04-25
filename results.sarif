@@ -21,8 +21,8 @@
                 "text": "php-jwt contains weak encryption"
               },
               "help": {
-                "text": "Description: php-jwt contains weak encryption\nVulnerability: CVE-2025-45769\nComponent: pkg:composer/firebase/php-jwt@v6.11.1\nMitigation: Update to version 7.0.0.",
-                "markdown": "## Description\n\nphp-jwt contains weak encryption\n\n## Advisory\n\n- Vulnerability: `CVE-2025-45769`\n- Component: `pkg:composer/firebase/php-jwt@v6.11.1`\n\n## Mitigation\n\nUpdate to version 7.0.0."
+                "text": "Description:\nphp-jwt contains weak encryption\n\nAdvisory:\n- Vulnerability: CVE-2025-45769\n- Component: pkg:composer/firebase/php-jwt@v6.11.1\n\nMitigation:\nUpdate to version 7.0.0.",
+                "markdown": "**Description:**\n\nphp-jwt contains weak encryption\n\n**Advisory:**\n\n- Vulnerability: `CVE-2025-45769`\n- Component: `pkg:composer/firebase/php-jwt@v6.11.1`\n\n**Mitigation:**\n\nUpdate to version 7.0.0."
               },
               "properties": {
                 "security-severity": "3.0",
@@ -42,8 +42,8 @@
                 "text": "Composer is vulnerable to ANSI sequence injection"
               },
               "help": {
-                "text": "Description: Composer is vulnerable to ANSI sequence injection\nVulnerability: CVE-2025-67746\nComponent: pkg:composer/composer/composer@2.7.7\nMitigation: Update to version 2.9.3 to resolve CVE-2025-67746 or update to version 2.9.6 to resolve additional vulnerabilities for this package.",
-                "markdown": "## Description\n\nComposer is vulnerable to ANSI sequence injection\n\n## Advisory\n\n- Vulnerability: `CVE-2025-67746`\n- Component: `pkg:composer/composer/composer@2.7.7`\n\n## Mitigation\n\nUpdate to version 2.9.3 to resolve CVE-2025-67746 or update to version 2.9.6 to resolve additional vulnerabilities for this package."
+                "text": "Description:\nComposer is vulnerable to ANSI sequence injection\n\nAdvisory:\n- Vulnerability: CVE-2025-67746\n- Component: pkg:composer/composer/composer@2.7.7\n\nMitigation:\nUpdate to version 2.9.3 to resolve CVE-2025-67746 or update to version 2.9.6 to resolve additional vulnerabilities for this package.",
+                "markdown": "**Description:**\n\nComposer is vulnerable to ANSI sequence injection\n\n**Advisory:**\n\n- Vulnerability: `CVE-2025-67746`\n- Component: `pkg:composer/composer/composer@2.7.7`\n\n**Mitigation:**\n\nUpdate to version 2.9.3 to resolve CVE-2025-67746 or update to version 2.9.6 to resolve additional vulnerabilities for this package."
               },
               "properties": {
                 "security-severity": "3.0",
@@ -63,8 +63,8 @@
                 "text": "Adminer has an Unauthenticated Persistent DoS via Array Injection in ?script=version Endpoint"
               },
               "help": {
-                "text": "Description: Adminer has an Unauthenticated Persistent DoS via Array Injection in ?script=version Endpoint\nVulnerability: CVE-2026-25892\nComponent: pkg:composer/vrana/adminer@v4.17.1\nMitigation: Update to version 5.4.2.",
-                "markdown": "## Description\n\nAdminer has an Unauthenticated Persistent DoS via Array Injection in ?script=version Endpoint\n\n## Advisory\n\n- Vulnerability: `CVE-2026-25892`\n- Component: `pkg:composer/vrana/adminer@v4.17.1`\n\n## Mitigation\n\nUpdate to version 5.4.2."
+                "text": "Description:\nAdminer has an Unauthenticated Persistent DoS via Array Injection in ?script=version Endpoint\n\nAdvisory:\n- Vulnerability: CVE-2026-25892\n- Component: pkg:composer/vrana/adminer@v4.17.1\n\nMitigation:\nUpdate to version 5.4.2.",
+                "markdown": "**Description:**\n\nAdminer has an Unauthenticated Persistent DoS via Array Injection in ?script=version Endpoint\n\n**Advisory:**\n\n- Vulnerability: `CVE-2026-25892`\n- Component: `pkg:composer/vrana/adminer@v4.17.1`\n\n**Mitigation:**\n\nUpdate to version 5.4.2."
               },
               "properties": {
                 "security-severity": "8.0",
@@ -84,8 +84,8 @@
                 "text": "Composer has a command injection via malicious perforce repository"
               },
               "help": {
-                "text": "Description: Composer has a command injection via malicious perforce repository\nVulnerability: CVE-2026-40176\nComponent: pkg:composer/composer/composer@2.7.7\nMitigation: Update to version 2.9.6.",
-                "markdown": "## Description\n\nComposer has a command injection via malicious perforce repository\n\n## Advisory\n\n- Vulnerability: `CVE-2026-40176`\n- Component: `pkg:composer/composer/composer@2.7.7`\n\n## Mitigation\n\nUpdate to version 2.9.6."
+                "text": "Description:\nComposer has a command injection via malicious perforce repository\n\nAdvisory:\n- Vulnerability: CVE-2026-40176\n- Component: pkg:composer/composer/composer@2.7.7\n\nMitigation:\nUpdate to version 2.9.6.",
+                "markdown": "**Description:**\n\nComposer has a command injection via malicious perforce repository\n\n**Advisory:**\n\n- Vulnerability: `CVE-2026-40176`\n- Component: `pkg:composer/composer/composer@2.7.7`\n\n**Mitigation:**\n\nUpdate to version 2.9.6."
               },
               "properties": {
                 "security-severity": "8.0",
@@ -105,8 +105,8 @@
                 "text": "Composer has a command injection via malicious perforce reference"
               },
               "help": {
-                "text": "Description: Composer has a command injection via malicious perforce reference\nVulnerability: CVE-2026-40261\nComponent: pkg:composer/composer/composer@2.7.7\nMitigation: Update to version 2.9.6.",
-                "markdown": "## Description\n\nComposer has a command injection via malicious perforce reference\n\n## Advisory\n\n- Vulnerability: `CVE-2026-40261`\n- Component: `pkg:composer/composer/composer@2.7.7`\n\n## Mitigation\n\nUpdate to version 2.9.6."
+                "text": "Description:\nComposer has a command injection via malicious perforce reference\n\nAdvisory:\n- Vulnerability: CVE-2026-40261\n- Component: pkg:composer/composer/composer@2.7.7\n\nMitigation:\nUpdate to version 2.9.6.",
+                "markdown": "**Description:**\n\nComposer has a command injection via malicious perforce reference\n\n**Advisory:**\n\n- Vulnerability: `CVE-2026-40261`\n- Component: `pkg:composer/composer/composer@2.7.7`\n\n**Mitigation:**\n\nUpdate to version 2.9.6."
               },
               "properties": {
                 "security-severity": "8.0",
@@ -133,7 +133,7 @@
           "level": "note",
           "message": {
             "text": "CVE-2025-45769 in pkg:composer/firebase/php-jwt@v6.11.1: php-jwt contains weak encryption. Update to version 7.0.0.",
-            "markdown": "## Description\n\nphp-jwt contains weak encryption\n\n## Advisory\n\n- Vulnerability: `CVE-2025-45769`\n- Component: `pkg:composer/firebase/php-jwt@v6.11.1`\n\n## Mitigation\n\nUpdate to version 7.0.0."
+            "markdown": "**Description:**\n\nphp-jwt contains weak encryption\n\n**Advisory:**\n\n- Vulnerability: `CVE-2025-45769`\n- Component: `pkg:composer/firebase/php-jwt@v6.11.1`\n\n**Mitigation:**\n\nUpdate to version 7.0.0."
           },
           "locations": [
             {
@@ -171,7 +171,7 @@
           "level": "note",
           "message": {
             "text": "CVE-2025-67746 in pkg:composer/composer/composer@2.7.7: Composer is vulnerable to ANSI sequence injection. Update to version 2.9.3 to resolve CVE-2025-67746 or update to version 2.9.6 to resolve additional vulnerabilities for this package.",
-            "markdown": "## Description\n\nComposer is vulnerable to ANSI sequence injection\n\n## Advisory\n\n- Vulnerability: `CVE-2025-67746`\n- Component: `pkg:composer/composer/composer@2.7.7`\n\n## Mitigation\n\nUpdate to version 2.9.3 to resolve CVE-2025-67746 or update to version 2.9.6 to resolve additional vulnerabilities for this package."
+            "markdown": "**Description:**\n\nComposer is vulnerable to ANSI sequence injection\n\n**Advisory:**\n\n- Vulnerability: `CVE-2025-67746`\n- Component: `pkg:composer/composer/composer@2.7.7`\n\n**Mitigation:**\n\nUpdate to version 2.9.3 to resolve CVE-2025-67746 or update to version 2.9.6 to resolve additional vulnerabilities for this package."
           },
           "locations": [
             {
@@ -209,7 +209,7 @@
           "level": "error",
           "message": {
             "text": "CVE-2026-25892 in pkg:composer/vrana/adminer@v4.17.1: Adminer has an Unauthenticated Persistent DoS via Array Injection in ?script=version Endpoint. Update to version 5.4.2.",
-            "markdown": "## Description\n\nAdminer has an Unauthenticated Persistent DoS via Array Injection in ?script=version Endpoint\n\n## Advisory\n\n- Vulnerability: `CVE-2026-25892`\n- Component: `pkg:composer/vrana/adminer@v4.17.1`\n\n## Mitigation\n\nUpdate to version 5.4.2."
+            "markdown": "**Description:**\n\nAdminer has an Unauthenticated Persistent DoS via Array Injection in ?script=version Endpoint\n\n**Advisory:**\n\n- Vulnerability: `CVE-2026-25892`\n- Component: `pkg:composer/vrana/adminer@v4.17.1`\n\n**Mitigation:**\n\nUpdate to version 5.4.2."
           },
           "locations": [
             {
@@ -247,7 +247,7 @@
           "level": "error",
           "message": {
             "text": "CVE-2026-40176 in pkg:composer/composer/composer@2.7.7: Composer has a command injection via malicious perforce repository. Update to version 2.9.6.",
-            "markdown": "## Description\n\nComposer has a command injection via malicious perforce repository\n\n## Advisory\n\n- Vulnerability: `CVE-2026-40176`\n- Component: `pkg:composer/composer/composer@2.7.7`\n\n## Mitigation\n\nUpdate to version 2.9.6."
+            "markdown": "**Description:**\n\nComposer has a command injection via malicious perforce repository\n\n**Advisory:**\n\n- Vulnerability: `CVE-2026-40176`\n- Component: `pkg:composer/composer/composer@2.7.7`\n\n**Mitigation:**\n\nUpdate to version 2.9.6."
           },
           "locations": [
             {
@@ -285,7 +285,7 @@
           "level": "error",
           "message": {
             "text": "CVE-2026-40261 in pkg:composer/composer/composer@2.7.7: Composer has a command injection via malicious perforce reference. Update to version 2.9.6.",
-            "markdown": "## Description\n\nComposer has a command injection via malicious perforce reference\n\n## Advisory\n\n- Vulnerability: `CVE-2026-40261`\n- Component: `pkg:composer/composer/composer@2.7.7`\n\n## Mitigation\n\nUpdate to version 2.9.6."
+            "markdown": "**Description:**\n\nComposer has a command injection via malicious perforce reference\n\n**Advisory:**\n\n- Vulnerability: `CVE-2026-40261`\n- Component: `pkg:composer/composer/composer@2.7.7`\n\n**Mitigation:**\n\nUpdate to version 2.9.6."
           },
           "locations": [
             {
